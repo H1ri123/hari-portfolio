@@ -18,11 +18,11 @@ const Hero = () => {
                 {/* Left Content */}
                 <div className="space-y-6 lg:pr-8">
                     <h3 className="text-2xl font-semibold text-[#F75023]">Hello, I'm</h3>
-                    <h1 className="text-6xl sm:text-7xl lg:text-8xl font-bold text-[#1f1f25] tracking-tight">
-                        James Smith
+                    <h1 className="text-6xl sm:text-7xl lg:text-7xl font-bold text-[#1f1f25] tracking-tight">
+                        HARI HARAN
                     </h1>
                     <div className="text-xl sm:text-2xl font-medium text-gray-600">
-                        A <span className="text-[#1cbe59]">Creative Designer</span> From <span className="text-[#8067f0]">New York</span>
+                        A <span className="text-[#1cbe59]">Devloper</span>
                     </div>
                     <p className="max-w-lg text-gray-500 text-lg leading-relaxed">
                         I'm creative designer based in New York, and I'm very passionate and dedicated to my work.
