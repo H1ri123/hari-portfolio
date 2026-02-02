@@ -8,7 +8,7 @@
 
 @layer base {
     body {
-        @apply antialiased text-gray-900 bg-[#F9F9F9];
+        @apply antialiased text-slate-50 bg-[#0F172A];
         font-family: 'Inter', system-ui, sans-serif;
     }
 }

@@ -11,17 +11,17 @@ const PortfolioItem = ({ title, category, image }) => (
         />
 
         {/* Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-t from-[#F75023]/90 to-[#F75023]/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+        <div className="absolute inset-0 bg-gradient-to-t from-[#2563EB]/90 to-[#2563EB]/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
             {/* Content appearing on hover */}
             <div className="text-center transform translate-y-10 group-hover:translate-y-0 transition-transform duration-300 p-4">
                 <span className="text-white/80 font-medium uppercase tracking-wider text-sm mb-2 block">{category}</span>
                 <h3 className="text-3xl font-bold text-white mb-6">{title}</h3>
 
                 <div className="flex justify-center gap-4">
-                    <button className="w-12 h-12 bg-white rounded-full flex items-center justify-center text-[#F75023] hover:bg-gray-100 transition-colors">
+                    <button className="w-12 h-12 bg-white rounded-full flex items-center justify-center text-[#2563EB] hover:bg-gray-100 transition-colors">
                         <ExternalLink size={20} />
                     </button>
-                    <button className="w-12 h-12 bg-white rounded-full flex items-center justify-center text-[#F75023] hover:bg-gray-100 transition-colors">
+                    <button className="w-12 h-12 bg-white rounded-full flex items-center justify-center text-[#2563EB] hover:bg-gray-100 transition-colors">
                         <Github size={20} />
                     </button>
                 </div>
@@ -65,12 +65,12 @@ const Portfolio = () => {
     ];
 
     return (
-        <section id="portfolio" className="py-20 lg:py-28 bg-white">
+        <section id="portfolio" className="py-20 lg:py-28 bg-[#111827]">
             <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                 <div className="text-center max-w-2xl mx-auto mb-16">
-                    <h4 className="text-[#F75023] font-semibold text-xl tracking-wide uppercase mb-2">Portfolio</h4>
-                    <h2 className="text-4xl sm:text-5xl font-bold text-[#1f1f25]">My Amazing Works</h2>
-                    <p className="mt-4 text-gray-500 text-lg">
+                    <h4 className="text-[#2563EB] font-semibold text-xl tracking-wide uppercase mb-2">Portfolio</h4>
+                    <h2 className="text-4xl sm:text-5xl font-bold text-[#F1F5F9]">My Amazing Works</h2>
+                    <p className="mt-4 text-[#94A3B8] text-lg">
                         Most common methods for designing websites that work well on desktop is responsive and adaptive design.
                     </p>
                 </div>
@@ -83,7 +83,7 @@ const Portfolio = () => {
 
                 {/* View All Button */}
                 <div className="mt-16 text-center">
-                    <button className="rounded-full border-2 border-[#F75023] px-10 py-3 text-[#F75023] font-semibold hover:bg-[#F75023] hover:text-white transition-all duration-300">
+                    <button className="rounded-full border-2 border-[#2563EB] px-10 py-3 text-[#2563EB] font-semibold hover:bg-[#2563EB] hover:text-white transition-all duration-300 shadow-lg hover:shadow-blue-500/20">
                         View All Projects
                     </button>
                 </div>
