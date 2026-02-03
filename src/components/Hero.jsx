@@ -34,19 +34,19 @@ const Hero = () => {
 
                         {/* Social Icons */}
                         <div className="flex gap-5">
-                            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-[#94A3B8] hover:text-[#2563EB] transition-colors"><Linkedin size={20} /></a>
-                            <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-[#94A3B8] hover:text-[#2563EB] transition-colors"><Github size={20} /></a>
+                            <a href="https://www.linkedin.com/in/hariharan12345/" target="_blank" rel="noopener noreferrer" className="text-[#94A3B8] hover:text-[#2563EB] transition-colors"><Linkedin size={20} /></a>
+                            <a href="https://github.com/H1ri123" target="_blank" rel="noopener noreferrer" className="text-[#94A3B8] hover:text-[#2563EB] transition-colors"><Github size={20} /></a>
                         </div>
                     </div>
                 </div>
 
                 {/* Right Image/Visuals */}
-                <div className="relative flex justify-center lg:justify-end mt-12 lg:mt-0">
+                <div className="relative flex justify-center lg:justify-end mt- lg:mt-0">
                     {/* Splash Background behind Image */}
                     <div className="absolute inset-0 bg-[#2563EB]/10 transform rotate-6 rounded-[3rem] z-0 scale-90 translate-x-4 translate-y-4"></div>
 
                     {/* Profile Image Container */}
-                    <div className="relative z-10 w-full max-w-[450px]">
+                    <div className="relative z-10 w-full max-w-[400px]">
                         {/* Placeholder for the person image - using a high-quality Unsplash portrait */}
                         <div className="relative aspect-[4/5] rounded-[3rem] overflow-hidden border-8 border-slate-700/50 shadow-2xl">
                             <img
@@ -57,18 +57,6 @@ const Hero = () => {
                         </div>
 
                         {/* Floating Icons */}
-
-                        {/* Flutter */}
-                        <div className="absolute top-12 -right-8 bg-[#1E293B] p-4 rounded-xl shadow-xl animate-bounce-slow border border-[#2563EB]/30 flex items-center gap-3">
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" alt="Flutter" className="w-6 h-6" />
-                            <span className="text-[#F1F5F9] font-medium text-sm">Flutter</span>
-                        </div>
-
-                        {/* Spring Boot */}
-                        <div className="absolute top-20 -left-6 bg-[#1E293B] p-4 rounded-xl shadow-xl animate-bounce-slower border border-[#2563EB]/30 flex items-center gap-3">
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" alt="Spring" className="w-6 h-6" />
-                            <span className="text-[#F1F5F9] font-medium text-sm">Spring</span>
-                        </div>
 
                         {/* Java */}
                         <div className="absolute bottom-32 -right-4 bg-[#1E293B] p-4 rounded-xl shadow-xl animate-pulse-slow border border-[#2563EB]/30 flex items-center gap-3">
@@ -81,19 +69,25 @@ const Hero = () => {
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL" className="w-6 h-6" />
                             <span className="text-[#F1F5F9] font-medium text-sm">MySQL</span>
                         </div>
+
+                        {/* Flutter */}
+                        <div className="absolute top-12 -right-8 bg-[#1E293B] p-4 rounded-xl shadow-xl animate-bounce-slow border border-[#2563EB]/30 flex items-center gap-3">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" alt="Flutter" className="w-6 h-6" />
+                            <span className="text-[#F1F5F9] font-medium text-sm">Flutter</span>
+                        </div>
+
+                        {/* Spring Boot */}
+                        <div className="absolute top-20 -left-6 bg-[#1E293B] p-4 rounded-xl shadow-xl animate-bounce-slower border border-[#2563EB]/30 flex items-center gap-3">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" alt="Spring" className="w-6 h-6" />
+                            <span className="text-[#F1F5F9] font-medium text-sm">Spring</span>
+                        </div>
                     </div>
                 </div>
             </div>
 
-            {/* Scroll Down Indicator */}
-            <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-                <Mouse className="text-gray-400 w-8 h-8" />
-            </div>
 
-            {/* Bottom Right Dot/Decoration */}
-            <div className="absolute bottom-20 right-10 w-12 h-12 rounded-full border border-[#2563EB]/30 flex items-center justify-center">
-                <div className="w-2 h-2 bg-[#2563EB] rounded-full"></div>
-            </div>
+
+
         </section>
     );
 };
