@@ -1,4 +1,5 @@
 import React from 'react';
+import profileImg from "../assets/profile.jpg";
 import { Linkedin, Github, Mouse, Smartphone, Database, Server, Coffee } from 'lucide-react';
 
 const Hero = () => {
@@ -21,10 +22,10 @@ const Hero = () => {
                         HARI HARAN
                     </h1>
                     <div className="text-xl sm:text-2xl font-medium text-[#94A3B8]">
-                        <span className="text-[#2563EB]">Software Engineer</span>
+                        <span className="text-[#2563EB]">APP DEVLOPER</span>
                     </div>
                     <p className="max-w-lg text-[#94A3B8] text-lg leading-relaxed">
-                        Building Scalable Web & Mobile Solutions. I engineer robust backend systems and intuitive user interfaces.
+                        Building Scalable Mobile Solutions. I engineer robust backend systems and intuitive user interfaces.
                     </p>
 
                     <div className="flex items-center gap-8 pt-4">
@@ -50,10 +51,11 @@ const Hero = () => {
                         {/* Placeholder for the person image - using a high-quality Unsplash portrait */}
                         <div className="relative aspect-[4/5] rounded-[3rem] overflow-hidden border-8 border-slate-700/50 shadow-2xl">
                             <img
-                                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1000&auto=format&fit=crop"
-                                alt="James Smith"
+                                src={profileImg}
+                                alt="Hari Haran"
                                 className="w-full h-full object-cover opacity-90 hover:opacity-100 transition-opacity"
                             />
+
                         </div>
 
                         {/* Floating Icons */}
@@ -84,9 +86,6 @@ const Hero = () => {
                     </div>
                 </div>
             </div>
-
-
-
 
         </section>
     );

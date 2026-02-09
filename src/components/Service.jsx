@@ -1,5 +1,5 @@
 import React from 'react';
-import { Palette, Code, Smartphone, Rocket, Layers, Layout } from 'lucide-react';
+import { Palette, Code, Smartphone, Coffee } from 'lucide-react';
 
 const ServiceCard = ({ icon: Icon, title, description, delay }) => (
     <div className="group relative bg-[#1E293B] p-10 rounded-[2rem] shadow-[0_10px_40px_-10px_rgba(0,0,0,0.2)] hover:shadow-[0_20px_40px_-5px_rgba(37,99,235,0.1)] transition-all duration-300 hover:-translate-y-2 border border-[#2563EB]/10">
@@ -26,9 +26,9 @@ const ServiceCard = ({ icon: Icon, title, description, delay }) => (
 const Service = () => {
     const services = [
         {
-            icon: Palette,
-            title: 'UI/UX Design',
-            description: 'Designing intuitive and engaging interfaces that delight users and solve complex problems.',
+            icon: Smartphone,
+            title: 'Mobile App',
+            description: 'Building scalable Flutter applications for both iOS and Android platforms.Integrating REST APIs, payment systems, and optimized UI components.',
         },
         {
             icon: Code,
@@ -36,25 +36,10 @@ const Service = () => {
             description: 'Building fast, responsive, and scalable websites using modern technologies like React.',
         },
         {
-            icon: Smartphone,
-            title: 'Mobile App',
-            description: 'Creating seamless mobile experiences for both iOS and Android platforms.',
+            icon: Coffee,
+            title: 'Backend Development',
+            description: "Building scalable backend systems using Java and Spring Boot with MVC architecture.Developing secure REST APIs and managing MySQL databases for reliable applications",
         },
-        {
-            icon: Rocket,
-            title: 'SEO Marketing',
-            description: 'Optimizing your online presence to reach more customers and grow your business.',
-        },
-        {
-            icon: Layers,
-            title: 'Graphic Design',
-            description: 'Crafting stunning visuals and branding assets that communicate your message.',
-        },
-        {
-            icon: Layout,
-            title: 'Web Design',
-            description: 'Creating structured, aesthetically pleasing layouts for all screen sizes.',
-        }
     ];
 
     return (
